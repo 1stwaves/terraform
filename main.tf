@@ -12,6 +12,4 @@ resource "aws_instance" "web-app" {
       CreationDate = formatdate("DD MMM YYYY hh:mm ZZZ",timestamp())
       Env = "Production"
     }
-  }
-}
 }
