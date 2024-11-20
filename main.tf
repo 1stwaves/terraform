@@ -13,3 +13,4 @@ resource "aws_instance" "web-app" {
       Env = "Production"
     }
   }
+}
